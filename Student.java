@@ -10,6 +10,10 @@ public class Student extends Person {
         this.average = average;
         this.email = email;
     }
+    
+    public Student(String name, String sex , String address, int DateOfBirth, String studentCode , double average, String email) {
+        
+    }
 
     public String getStudentCode() {
         return studentCode;
