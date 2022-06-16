@@ -37,7 +37,6 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
     public String toString() {
-        // TODO Auto-generated method stub
         return this.name + ", " + this.sex + ", " + this.address + ", " + this.dateOfBirth;
     }
 }
