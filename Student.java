@@ -41,7 +41,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return this.studentCode + " ," + this.email + ", " + this.average + ", " + this.email;
     }
 
