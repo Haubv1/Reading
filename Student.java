@@ -2,7 +2,7 @@ public class Student extends Person {
     private String studentCode;
     private double average;
     private String email;
-    public Student () {
+    public Student () {         //constructor without instances.
 
     }
     public Student(String studentCode, double average, String email) {
@@ -11,7 +11,7 @@ public class Student extends Person {
         this.email = email;
     }
     
-    public Student(String name, String sex , String address, int DateOfBirth, String studentCode , double average, String email) {
+    public Student(String name, String sex , String address, int DateOfBirth, String studentCode , double average, String email) {      //constructor with instance.
         
     }
 
